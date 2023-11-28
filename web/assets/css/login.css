@@ -1,0 +1,151 @@
+/* ==================== Sign-in ==================== */
+.signin__inner {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+/* ==================== Sign-in-Left ==================== */
+.signin-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: var(--background-color); */
+}
+.signin-left__inner {
+    width: auto;
+    height: auto;
+}
+.signin-left__background {
+    width: 100%;
+    display: flex;
+    opacity: 0.9;
+}
+
+/* .signin-left .heading {
+
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.24;
+} */
+
+/* .signin-left .heading ::before {
+
+} */
+
+/* .signin-left .left_desc {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 1.67;
+} */
+
+/* ==================== Sign-in-Right==================== */
+
+.signin__inner .signin-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-right__inner {
+    position: relative;
+    padding: 38px 28px;
+    width: 400px;
+    background: var(--background-color);
+    border-radius: 12px;
+}
+
+.signin-right .heading {
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 1.75;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.out {
+    position: absolute;
+    padding: 10px;
+    top: -16px;
+    right: -56px;
+}
+
+.signin-out_img {
+    border-radius: 26px;
+    width: 100%;
+}
+
+.sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.signin-right__input {
+    padding-left: 17px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d4dddd;
+    border-radius: 25px;
+}
+
+.signin-button {
+    margin: 25px auto;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #d4dddd;
+}
+
+.signin-right__break {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.signin-right__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-gg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 56px;
+    border: 1px solid #d4dddd;
+    border-radius: 25px;
+    background: white;
+}
+
+.con-gg {
+    color: var(--text_color);
+    padding-left: 15px;
+}
+
+.signin-account {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signin-link {
+    color: var(--text_color);
+    font-weight: 700;
+}

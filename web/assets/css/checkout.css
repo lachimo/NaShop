@@ -1,0 +1,237 @@
+.checkout {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--background-color);
+}
+
+.checkout__inner {
+    position: relative;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: #fff;
+    border-radius: 20px;
+    column-gap: 60px;
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+}
+
+.checkout__content {
+    width: 70%;
+}
+
+.checkout__back {
+    display: none;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+}
+
+.checkout__product {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout__product-text {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #676562;
+}
+
+.checkout__heading {
+    position: relative;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.08;
+    color: #131717;
+}
+
+.checkout__heading::after {
+    position: absolute;
+    top: 16px;
+    left: 210px;
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background: #152427;
+}
+
+.checkout__name {
+    padding-top: 50px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.checkout__first-name {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.checkout__last-name {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--text-color);
+    padding-bottom: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #566363;
+    border: 1px solid #c4d1d0;
+}
+
+.checkout__phone {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-text__form {
+    margin-top: 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c4d1d0;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #566363;
+}
+
+.checkout__address {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout__note {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-option {
+    padding-left: 5px;
+    font-size: 1.6rem;
+    color: #566363;
+}
+
+.form-title {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.checkout__amount {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.checkout__order {
+    padding-top: 30px;
+    width: 100%;
+    padding-bottom: 18px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.08;
+    color: #131717;
+    border-bottom: solid 1px #c4d1d0;
+}
+
+.checkout__row {
+    padding-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout__row-1 {
+    padding-top: 18px;
+}
+
+.checkout__row-2 {
+    padding-bottom: 18px;
+}
+
+.checkout__row-3 {
+    padding-top: 18px;
+    border-top: 1px solid #c4d1d0;
+    padding-bottom: 28px;
+}
+
+.checkout__row-price {
+    font-size: 1.4rem;
+    color: #566363;
+}
+
+.btn.checkout__btn {
+    width: 100%;
+    --height: 60px;
+    border-radius: 0px;
+    font-size: 1.8rem;
+}
+
+.checkout__total,
+.checkout__price {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #131717;
+}
+
+.checkout__payment-heading {
+    position: relative;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.08;
+    color: #131717;
+}
+
+.checkout__payment-heading::after {
+    position: absolute;
+    top: 14px;
+    left: 80px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: #152427;
+}
+
+.checkout__payment {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.form-check {
+    padding-top: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-check-label,
+.form-check-input {
+    cursor: pointer;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}

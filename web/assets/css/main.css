@@ -1,0 +1,98 @@
+@import url(./reset.css);
+@import url(./login.css);
+@import url(./register.css);
+@import url(./index.css);
+@import url(./product.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./cart.css);
+@import url(./account.css);
+@import url(./checkout.css);
+@import url(./invoice.css);
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /*======== Color ==============*/
+    --primary-color: #fefaf0;
+    --second-color: #84b4c8;
+    --third-color: #ff6cab;
+
+    /*======== Button Color ==============*/
+    --btn-color: #b2d9ea;
+    --btn_2-color: #ff5b2e;
+
+    /*======== Text Color ==============*/
+    --text_color: #141313;
+    --text_2_color: #4f5361;
+
+    /*======== BackGround Color ==============*/
+    --background-color: #f4dcd6;
+    --background_2-color: #fefaf0;
+
+    /*======== BackGround IMG Color ==============*/
+    --background-img-color: linear-gradient(
+        to right,
+        rgb(240, 11, 81),
+        rgb(115, 0, 98)
+    );
+    --background-img_2-color: linear-gradient(
+        to right,
+        rgb(255, 108, 171),
+        rgb(115, 102, 255)
+    );
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Ysabeau Infant", sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--background_2-color);
+    /* background: var(--primary-color); */
+    /* background-color: aqua; */
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Ysabeau Infant", sans-serif;
+    height: 56px;
+    min-width: 121px;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: transparent;
+    border: transparent;
+    font-size: inherit;
+    font-family: inherit;
+}
